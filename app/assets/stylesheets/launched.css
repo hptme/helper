@@ -483,7 +483,6 @@ body.fixed-header .navbar {
 }
 .navbar .nav > li > a {
   padding: 5px 10px;
-  text-transform: lowercase;
   text-shadow: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
