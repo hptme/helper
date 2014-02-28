@@ -483,7 +483,6 @@ body.fixed-header .navbar {
 }
 .navbar .nav > li > a {
   padding: 5px 10px;
-  text-transform: lowercase;
   text-shadow: none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -551,7 +550,8 @@ body.fixed-header .navbar {
 }
 #masthead {
   position: relative;
-  margin-bottom: 3em;
+  margin-top: 5em;
+  margin-bottom: 4em;
   background-color: #EEE;
   background-image: url(../img/bgs/wall4.png);
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
@@ -2036,7 +2036,7 @@ ul.testimonial-list {
 }
 ul.testimonial-list li {
   position: relative;
-  margin-bottom: 3em;
+  margin: 3em 0;
   list-style: none;
 }
 ul.testimonial-list img {
@@ -2050,7 +2050,7 @@ ul.testimonial-list img {
 ul.testimonial-list blockquote {
   position: relative;
   padding: 15px;
-  margin-bottom: 2em;
+  margin-top: 2em;
   background: #FFF;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;

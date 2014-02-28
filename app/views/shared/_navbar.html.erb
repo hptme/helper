@@ -1,29 +1,20 @@
 <div class="navbar">
-      <div class="navbar-pad">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-          <div class="nav-collapse collapse">
-            
-              <ul class="nav pull-left">
-        <li class=""><a href="./index.html">流程</a></li>
-        <li class=""><a href="./index.html">Q&A</a></li>
-        <li class=""><a href="./index.html">相關法條</a></li>
-       
-        
-            
-      </ul>
+  <div class="navbar-pad">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-      
-        
-
-
-
-          </div> <!-- /.nav-collapse -->
-        </div> <!-- /.container -->
-      </div> <!-- /.navbar-pad -->
-    </div> 
+      <div class="nav-collapse collapse">
+        <ul class="nav pull-left">
+          <li class="active"><%= link_to "哈囉! 法律:D", root_path, :class => 'brand' %></li>
+          <li id="process-nav"><%= link_to "流程" %></li>
+          <li id="qa-nav"><%= link_to "Q&A" %></li>
+          <li id="law-nav"><%= link_to "相關法條" %></a></li>
+        </ul>
+      </div> <!-- /.nav-collapse -->
+    </div> <!-- /.container -->
+  </div> <!-- /.navbar-pad -->
+</div>

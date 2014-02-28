@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+#lightbox-demo {
+  text-align: center;
+}
+
+#lightbox-demo .btn {
+  margin: 0 .5em 1em;
+}
+
+.master-block {
+  margin-bottom: 8em;
+}
+
+.law-title {
+  margin-bottom: 1.5em;
+}
