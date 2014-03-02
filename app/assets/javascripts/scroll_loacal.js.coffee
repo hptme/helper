@@ -16,3 +16,9 @@ $ ->
     $('html, body').animate
       scrollTop: $("#law-content").offset().top - 100
     , 1500
+
+  $("#home-nav").click (e) ->
+    e.preventDefault();
+    $('html, body').animate
+      scrollTop: $("#process-content").offset().top - 100
+    , 1500
